@@ -29,6 +29,7 @@
     'amenity' => 'Modules\Blog\Models\Amenity',
     'article' => 'Modules\Blog\Models\Article',
     'bell_boy' => 'Modules\Food\Models\BellBoy',
+    'booking' => 'Modules\Cart\Models\Booking',
     'cart' => 'Modules\Cart\Models\Cart',
     'category' => 'Modules\Blog\Models\Category',
     'cuisine' => 'Modules\Food\Models\Cuisine',
