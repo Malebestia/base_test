@@ -34,6 +34,7 @@
     'category' => 'Modules\Blog\Models\Category',
     'cuisine' => 'Modules\Food\Models\Cuisine',
     'cuisine_cat' => 'Modules\Food\Models\CuisineCat',
+    'event' => 'Modules\Blog\Models\Event',
     'home' => 'Modules\Blog\Models\Home',
     'ingredient' => 'Modules\Food\Models\Ingredient',
     'ingredient_cat' => 'Modules\Food\Models\IngredientCat',
