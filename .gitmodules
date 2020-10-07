@@ -67,3 +67,6 @@
 [submodule "laravel/resources/views/themes/metronic_one"]
 	path = laravel/resources/views/themes/metronic_one
 	url = https://Malebestia@bitbucket.org/qweb_xot/theme_metronic_one.git
+[submodule "bashscripts"]
+	path = bashscripts
+	url = https://github.com/laraxot/bashscripts.git
