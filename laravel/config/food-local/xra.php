@@ -1,5 +1,5 @@
 <?php return array (
-  'adm_theme' => 'sb-admin-2-bs4',
+  'adm_theme' => 'adminflu',
   'enable_ads' => '1',
   'enable_packs' => 
   array (
@@ -38,12 +38,13 @@
     'home' => 'Modules\Blog\Models\Home',
     'ingredient' => 'Modules\Food\Models\Ingredient',
     'ingredient_cat' => 'Modules\Food\Models\IngredientCat',
-    'location' => 'Modules\Food\Models\Location',
+    'location' => 'Modules\Blog\Models\Location',
     'opening_hour' => 'Modules\Food\Models\OpeningHour',
     'page' => 'Modules\Blog\Models\Page',
     'photo' => 'Modules\Blog\Models\Photo',
+    'place' => 'Modules\Blog\Models\Place',
     'post' => 'Modules\Blog\Models\Post',
-    'profile' => 'Modules\Food\Models\Profile',
+    'profile' => 'Modules\Blog\Models\Profile',
     'rating' => 'Modules\Blog\Models\Rating',
     'recipe' => 'Modules\Food\Models\Recipe',
     'restaurant' => 'Modules\Food\Models\Restaurant',
