@@ -1,7 +1,7 @@
 <?php
 
  return [
-     'adm_theme' => 'adminflu',
+     'adm_theme' => 'metronic_one',
      'enable_ads' => '1',
      'enable_packs' => [
          0 => 'backend',
@@ -41,9 +41,9 @@
          'opening_hour' => 'Modules\Food\Models\OpeningHour',
          'page' => 'Modules\Blog\Models\Page',
          'photo' => 'Modules\Blog\Models\Photo',
-         'place' => 'Modules\Blog\Models\Place',
+         'place' => 'Modules\Food\Models\Place',
          'post' => 'Modules\Blog\Models\Post',
-         'profile' => 'Modules\Blog\Models\Profile',
+         'profile' => 'Modules\Food\Models\Profile',
          'rating' => 'Modules\Blog\Models\Rating',
          'recipe' => 'Modules\Food\Models\Recipe',
          'restaurant' => 'Modules\Food\Models\Restaurant',
