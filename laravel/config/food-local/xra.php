@@ -1,9 +1,7 @@
 <?php
 
  return [
-     //'adm_theme' => 'adminflu',
      'adm_theme' => 'metronic_one',
-     //'adm_theme' => 'sb-admin-2-bs4',
      'enable_ads' => '1',
      'enable_packs' => [
          0 => 'backend',
@@ -36,16 +34,17 @@
          'cuisine' => 'Modules\Food\Models\Cuisine',
          'cuisine_cat' => 'Modules\Food\Models\CuisineCat',
          'event' => 'Modules\Blog\Models\Event',
-         'home' => 'Modules\Blog\Models\Home',
+         'group' => 'Modules\LU\Models\Group',
+         'home' => 'Modules\Food\Models\Home',
          'ingredient' => 'Modules\Food\Models\Ingredient',
          'ingredient_cat' => 'Modules\Food\Models\IngredientCat',
          'location' => 'Modules\Food\Models\Location',
          'opening_hour' => 'Modules\Food\Models\OpeningHour',
          'page' => 'Modules\Blog\Models\Page',
          'photo' => 'Modules\Blog\Models\Photo',
-         'place' => 'Modules\Blog\Models\Place',
+         'place' => 'Modules\Food\Models\Place',
          'post' => 'Modules\Blog\Models\Post',
-         'profile' => 'Modules\Blog\Models\Profile',
+         'profile' => 'Modules\Food\Models\Profile',
          'rating' => 'Modules\Blog\Models\Rating',
          'recipe' => 'Modules\Food\Models\Recipe',
          'restaurant' => 'Modules\Food\Models\Restaurant',

@@ -1,9 +1,8 @@
 <?php
+
 // Header menu
 return [
-
     'items' => [
-        [],
         [
             'title' => 'Dashboard',
             'root' => true,
@@ -26,53 +25,53 @@ return [
                         'submenu' => [
                             [
                                 'title' => 'Utilities',
-                                'page' => 'features/bootstrap/utilities'
+                                'page' => 'features/bootstrap/utilities',
                             ],
                             [
                                 'title' => 'Typography',
-                                'page' => 'features/bootstrap/typography'
+                                'page' => 'features/bootstrap/typography',
                             ],
                             [
                                 'title' => 'Buttons',
-                                'page' => 'features/bootstrap/buttons'
+                                'page' => 'features/bootstrap/buttons',
                             ],
                             [
                                 'title' => 'Button Group',
-                                'page' => 'features/bootstrap/button-group'
+                                'page' => 'features/bootstrap/button-group',
                             ],
                             [
                                 'title' => 'Dropdown',
-                                'page' => 'features/bootstrap/dropdown'
+                                'page' => 'features/bootstrap/dropdown',
                             ],
                             [
                                 'title' => 'Navs',
-                                'page' => 'features/bootstrap/navs'
+                                'page' => 'features/bootstrap/navs',
                             ],
                             [
                                 'title' => 'Tables',
-                                'page' => 'features/bootstrap/tables'
+                                'page' => 'features/bootstrap/tables',
                             ],
                             [
                                 'title' => 'Progress',
-                                'page' => 'features/bootstrap/progress'
+                                'page' => 'features/bootstrap/progress',
                             ],
                             [
                                 'title' => 'Modal',
-                                'page' => 'features/bootstrap/modal'
+                                'page' => 'features/bootstrap/modal',
                             ],
                             [
                                 'title' => 'Alerts',
-                                'page' => 'features/bootstrap/alerts'
+                                'page' => 'features/bootstrap/alerts',
                             ],
                             [
                                 'title' => 'Popover',
-                                'page' => 'features/bootstrap/popover'
+                                'page' => 'features/bootstrap/popover',
                             ],
                             [
                                 'title' => 'Tooltip',
-                                'page' => 'features/bootstrap/tooltip'
+                                'page' => 'features/bootstrap/tooltip',
                             ],
-                        ]
+                        ],
                     ],
                     [
                         'title' => 'Custom',
@@ -82,53 +81,53 @@ return [
                         'submenu' => [
                             [
                                 'title' => 'Utilities',
-                                'page' => 'features/custom/utilities'
+                                'page' => 'features/custom/utilities',
                             ],
                             [
                                 'title' => 'Accordions',
-                                'page' => 'features/custom/accordions'
+                                'page' => 'features/custom/accordions',
                             ],
                             [
                                 'title' => 'Label',
-                                'page' => 'features/custom/labels'
+                                'page' => 'features/custom/labels',
                             ],
                             [
                                 'title' => 'Line Tabs',
-                                'page' => 'features/custom/line-tabs'
+                                'page' => 'features/custom/line-tabs',
                             ],
                             [
                                 'title' => 'Advance Navigations',
-                                'page' => 'features/custom/advance-navs'
+                                'page' => 'features/custom/advance-navs',
                             ],
                             [
                                 'title' => 'Timeline',
-                                'page' => 'features/custom/timeline'
+                                'page' => 'features/custom/timeline',
                             ],
                             [
                                 'title' => 'Pagination',
-                                'page' => 'features/custom/pagination'
+                                'page' => 'features/custom/pagination',
                             ],
                             [
                                 'title' => 'Media',
-                                'page' => 'features/custom/media'
+                                'page' => 'features/custom/media',
                             ],
                             [
                                 'title' => 'Spinners',
-                                'page' => 'features/custom/spinners'
+                                'page' => 'features/custom/spinners',
                             ],
                             [
                                 'title' => 'Iconbox',
-                                'page' => 'features/custom/iconbox'
+                                'page' => 'features/custom/iconbox',
                             ],
                             [
                                 'title' => 'Callout',
-                                'page' => 'features/custom/callout'
+                                'page' => 'features/custom/callout',
                             ],
                             [
                                 'title' => 'Ribbons',
-                                'page' => 'features/custom/ribbons'
-                            ]
-                        ]
+                                'page' => 'features/custom/ribbons',
+                            ],
+                        ],
                     ],
                     [
                         'title' => 'Icons',
@@ -138,25 +137,25 @@ return [
                         'submenu' => [
                             [
                                 'title' => 'Flaticon',
-                                'page' => 'features/icons/flaticon'
+                                'page' => 'features/icons/flaticon',
                             ],
                             [
                                 'title' => 'Fontawesome 5',
-                                'page' => 'features/icons/fontawesome5'
+                                'page' => 'features/icons/fontawesome5',
                             ],
                             [
                                 'title' => 'Lineawesome',
-                                'page' => 'features/icons/lineawesome'
+                                'page' => 'features/icons/lineawesome',
                             ],
                             [
                                 'title' => 'Socicons',
-                                'page' => 'features/icons/socicons'
+                                'page' => 'features/icons/socicons',
                             ],
                             [
                                 'title' => 'SVG Icons',
-                                'page' => 'features/svg/icons'
-                            ]
-                        ]
+                                'page' => 'features/svg/icons',
+                            ],
+                        ],
                     ],
                     [
                         'title' => 'Cards',
@@ -166,33 +165,33 @@ return [
                         'submenu' => [
                             [
                                 'title' => 'General Cards',
-                                'page' => 'features/cards/general'
+                                'page' => 'features/cards/general',
                             ],
                             [
                                 'title' => 'Stacked Cards',
-                                'page' => 'features/cards/stacked'
+                                'page' => 'features/cards/stacked',
                             ],
                             [
                                 'title' => 'Tabbed Cards',
-                                'page' => 'features/cards/tabbed'
+                                'page' => 'features/cards/tabbed',
                             ],
                             [
                                 'title' => 'Draggable Cards',
-                                'page' => 'features/cards/draggable'
+                                'page' => 'features/cards/draggable',
                             ],
                             [
                                 'title' => 'Cards Tools',
-                                'page' => 'features/cards/tools'
+                                'page' => 'features/cards/tools',
                             ],
                             [
                                 'title' => 'Sticky Cards',
-                                'page' => 'features/cards/sticky'
+                                'page' => 'features/cards/sticky',
                             ],
                             [
                                 'title' => 'Stretched Cards',
-                                'page' => 'features/cards/stretched'
-                            ]
-                        ]
+                                'page' => 'features/cards/stretched',
+                            ],
+                        ],
                     ],
                     [
                         'title' => 'Widgets',
@@ -202,19 +201,19 @@ return [
                         'submenu' => [
                             [
                                 'title' => 'Lists',
-                                'page' => 'features/widgets/lists'
+                                'page' => 'features/widgets/lists',
                             ],
                             [
                                 'title' => 'Stats',
-                                'page' => 'features/widgets/stats'
+                                'page' => 'features/widgets/stats',
                             ],
                             [
                                 'title' => 'Charts',
-                                'page' => 'features/widgets/charts'
+                                'page' => 'features/widgets/charts',
                             ],
                             [
                                 'title' => 'Charts',
-                                'page' => 'features/widgets/charts'
+                                'page' => 'features/widgets/charts',
                             ],
                             [
                                 'title' => 'Mixed',
@@ -235,8 +234,8 @@ return [
                             [
                                 'title' => 'Forms',
                                 'page' => 'features/widgets/forms',
-                            ]
-                        ]
+                            ],
+                        ],
                     ],
                     [
                         'title' => 'Calendar',
@@ -246,25 +245,25 @@ return [
                         'submenu' => [
                             [
                                 'title' => 'Basic Calendar',
-                                'page' => 'features/calendar/basic'
+                                'page' => 'features/calendar/basic',
                             ],
                             [
                                 'title' => 'List Views',
-                                'page' => 'features/calendar/list-view'
+                                'page' => 'features/calendar/list-view',
                             ],
                             [
                                 'title' => 'Google Calendar',
-                                'page' => 'features/calendar/google'
+                                'page' => 'features/calendar/google',
                             ],
                             [
                                 'title' => 'External Events',
-                                'page' => 'features/calendar/external-events'
+                                'page' => 'features/calendar/external-events',
                             ],
                             [
                                 'title' => 'Background Events',
-                                'page' => 'features/calendar/background-events'
-                            ]
-                        ]
+                                'page' => 'features/calendar/background-events',
+                            ],
+                        ],
                     ],
                     [
                         'title' => 'Charts',
@@ -277,31 +276,31 @@ return [
                                 'submenu' => [
                                     [
                                         'title' => 'amCharts Charts',
-                                        'page' => 'features/charts/amcharts/charts'
+                                        'page' => 'features/charts/amcharts/charts',
                                     ],
                                     [
                                         'title' => 'amCharts Stock Charts',
-                                        'page' => 'features/charts/amcharts/stock-charts'
+                                        'page' => 'features/charts/amcharts/stock-charts',
                                     ],
                                     [
                                         'title' => 'amCharts Maps',
-                                        'page' => 'features/charts/amcharts/maps'
-                                    ]
-                                ]
+                                        'page' => 'features/charts/amcharts/maps',
+                                    ],
+                                ],
                             ],
                             [
                                 'title' => 'Flot Charts',
-                                'page' => 'features/charts/flotcharts'
+                                'page' => 'features/charts/flotcharts',
                             ],
                             [
                                 'title' => 'Google Charts',
-                                'page' => 'features/charts/google-charts'
+                                'page' => 'features/charts/google-charts',
                             ],
                             [
                                 'title' => 'Morris Charts',
-                                'page' => 'features/charts/morris-charts'
-                            ]
-                        ]
+                                'page' => 'features/charts/morris-charts',
+                            ],
+                        ],
                     ],
                     [
                         'title' => 'Maps',
@@ -310,13 +309,13 @@ return [
                         'submenu' => [
                             [
                                 'title' => 'Google Maps',
-                                'page' => 'features/maps/google-maps'
+                                'page' => 'features/maps/google-maps',
                             ],
                             [
                                 'title' => 'JQVMap',
-                                'page' => 'features/maps/jqvmap'
+                                'page' => 'features/maps/jqvmap',
                             ],
-                        ]
+                        ],
                     ],
                     [
                         'title' => 'Miscellaneous',
@@ -326,52 +325,52 @@ return [
                         'submenu' => [
                             [
                                 'title' => 'Kanban Board',
-                                'page' => 'features/miscellaneous/kanban-board'
+                                'page' => 'features/miscellaneous/kanban-board',
                             ],
                             [
                                 'title' => 'Sticky Panels',
-                                'page' => 'features/miscellaneous/sticky-panels'
+                                'page' => 'features/miscellaneous/sticky-panels',
                             ],
                             [
                                 'title' => 'Block UI',
-                                'page' => 'features/miscellaneous/blockui'
+                                'page' => 'features/miscellaneous/blockui',
                             ],
                             [
                                 'title' => 'Perfect Scrollbar',
-                                'page' => 'features/miscellaneous/perfect-scrollbar'
+                                'page' => 'features/miscellaneous/perfect-scrollbar',
                             ],
                             [
                                 'title' => 'Tree View',
-                                'page' => 'features/miscellaneous/treeview'
+                                'page' => 'features/miscellaneous/treeview',
                             ],
                             [
                                 'title' => 'Bootstrap Notify',
-                                'page' => 'features/miscellaneous/bootstrap-notify'
+                                'page' => 'features/miscellaneous/bootstrap-notify',
                             ],
                             [
                                 'title' => 'Toastr',
-                                'page' => 'features/miscellaneous/toastr'
+                                'page' => 'features/miscellaneous/toastr',
                             ],
                             [
                                 'title' => 'SweetAlert2',
-                                'page' => 'features/miscellaneous/sweetalert2'
+                                'page' => 'features/miscellaneous/sweetalert2',
                             ],
                             [
                                 'title' => 'Dual Listbox',
-                                'page' => 'features/miscellaneous/dual-listbox'
+                                'page' => 'features/miscellaneous/dual-listbox',
                             ],
                             [
                                 'title' => 'Session Timeout',
-                                'page' => 'features/miscellaneous/session-timeout'
+                                'page' => 'features/miscellaneous/session-timeout',
                             ],
                             [
                                 'title' => 'Idle Timer',
-                                'page' => 'features/miscellaneous/idle-timer'
-                            ]
-                        ]
+                                'page' => 'features/miscellaneous/idle-timer',
+                            ],
+                        ],
                     ],
-                ]
-            ]
+                ],
+            ],
         ],
         [
             'title' => 'Crud',
@@ -395,29 +394,29 @@ return [
                                 'submenu' => [
                                     [
                                         'title' => 'Base Inputs',
-                                        'page' => 'crud/forms/controls/base'
+                                        'page' => 'crud/forms/controls/base',
                                     ],
                                     [
                                         'title' => 'Input Groups',
-                                        'page' => 'crud/forms/controls/input-group'
+                                        'page' => 'crud/forms/controls/input-group',
                                     ],
                                     [
                                         'title' => 'Checkbox',
-                                        'page' => 'crud/forms/controls/checkbox'
+                                        'page' => 'crud/forms/controls/checkbox',
                                     ],
                                     [
                                         'title' => 'Radio',
-                                        'page' => 'crud/forms/controls/radio'
+                                        'page' => 'crud/forms/controls/radio',
                                     ],
                                     [
                                         'title' => 'Switch',
-                                        'page' => 'crud/forms/controls/switch'
+                                        'page' => 'crud/forms/controls/switch',
                                     ],
                                     [
                                         'title' => 'Mega Options',
-                                        'page' => 'crud/forms/controls/option'
-                                    ]
-                                ]
+                                        'page' => 'crud/forms/controls/option',
+                                    ],
+                                ],
                             ],
                             [
                                 'title' => 'Form Widgets',
@@ -427,53 +426,53 @@ return [
                                 'submenu' => [
                                     [
                                         'title' => 'Datepicker',
-                                        'page' => 'crud/forms/widgets/bootstrap-datepicker'
+                                        'page' => 'crud/forms/widgets/bootstrap-datepicker',
                                     ],
                                     [
                                         'title' => 'Datetimepicker',
-                                        'page' => 'crud/forms/widgets/bootstrap-datetimepicker'
+                                        'page' => 'crud/forms/widgets/bootstrap-datetimepicker',
                                     ],
                                     [
                                         'title' => 'Timepicker',
-                                        'page' => 'crud/forms/widgets/bootstrap-timepicker'
+                                        'page' => 'crud/forms/widgets/bootstrap-timepicker',
                                     ],
                                     [
                                         'title' => 'Daterangepicker',
-                                        'page' => 'crud/forms/widgets/bootstrap-daterangepicker'
+                                        'page' => 'crud/forms/widgets/bootstrap-daterangepicker',
                                     ],
                                     [
                                         'title' => 'Tagify',
-                                        'page' => 'crud/forms/widgets/tagify'
+                                        'page' => 'crud/forms/widgets/tagify',
                                     ],
                                     [
                                         'title' => 'Touchspin',
-                                        'page' => 'crud/forms/widgets/bootstrap-touchspin'
+                                        'page' => 'crud/forms/widgets/bootstrap-touchspin',
                                     ],
                                     [
                                         'title' => 'Maxlength',
-                                        'page' => 'crud/forms/widgets/bootstrap-maxlength'
+                                        'page' => 'crud/forms/widgets/bootstrap-maxlength',
                                     ],
                                     [
                                         'title' => 'Switch',
-                                        'page' => 'crud/forms/widgets/bootstrap-switch'
+                                        'page' => 'crud/forms/widgets/bootstrap-switch',
                                     ],
                                     [
                                         'title' => 'Multiple Select Splitter',
-                                        'page' => 'crud/forms/widgets/bootstrap-multipleselectsplitter'
+                                        'page' => 'crud/forms/widgets/bootstrap-multipleselectsplitter',
                                     ],
                                     [
                                         'title' => 'Bootstrap Select',
-                                        'page' => 'crud/forms/widgets/bootstrap-select'
+                                        'page' => 'crud/forms/widgets/bootstrap-select',
                                     ],
                                     [
                                         'title' => 'Select2',
-                                        'page' => 'crud/forms/widgets/select2'
+                                        'page' => 'crud/forms/widgets/select2',
                                     ],
                                     [
                                         'title' => 'Typeahead',
-                                        'page' => 'crud/forms/widgets/typeahead'
+                                        'page' => 'crud/forms/widgets/typeahead',
                                     ],
-                                ]
+                                ],
                             ],
                             [
                                 'title' => 'Form Widgets 2',
@@ -483,33 +482,33 @@ return [
                                 'submenu' => [
                                     [
                                         'title' => 'noUiSlider',
-                                        'page' => 'crud/forms/widgets/nouislider'
+                                        'page' => 'crud/forms/widgets/nouislider',
                                     ],
                                     [
                                         'title' => 'Form Repeater',
-                                        'page' => 'crud/forms/widgets/form-repeater'
+                                        'page' => 'crud/forms/widgets/form-repeater',
                                     ],
                                     [
                                         'title' => 'Ion Range Slider',
-                                        'page' => 'crud/forms/widgets/ion-range-slider'
+                                        'page' => 'crud/forms/widgets/ion-range-slider',
                                     ],
                                     [
                                         'title' => 'Input Masks',
-                                        'page' => 'crud/forms/widgets/input-mask'
+                                        'page' => 'crud/forms/widgets/input-mask',
                                     ],
                                     [
                                         'title' => 'Autosize',
-                                        'page' => 'crud/forms/widgets/autosize'
+                                        'page' => 'crud/forms/widgets/autosize',
                                     ],
                                     [
                                         'title' => 'Clipboard',
-                                        'page' => 'crud/forms/widgets/clipboard'
+                                        'page' => 'crud/forms/widgets/clipboard',
                                     ],
                                     [
                                         'title' => 'Google reCaptcha',
-                                        'page' => 'crud/forms/widgets/recaptcha'
-                                    ]
-                                ]
+                                        'page' => 'crud/forms/widgets/recaptcha',
+                                    ],
+                                ],
                             ],
                             [
                                 'title' => 'Form Text Editors',
@@ -519,7 +518,7 @@ return [
                                 'submenu' => [
                                     [
                                         'title' => 'TinyMCE',
-                                        'page' => 'crud/forms/editors/tinymce'
+                                        'page' => 'crud/forms/editors/tinymce',
                                     ],
                                     [
                                         'title' => 'CKEditor',
@@ -527,39 +526,39 @@ return [
                                         'submenu' => [
                                             [
                                                 'title' => 'CKEditor Classic',
-                                                'page' => 'crud/forms/editors/ckeditor-classic'
+                                                'page' => 'crud/forms/editors/ckeditor-classic',
                                             ],
                                             [
                                                 'title' => 'CKEditor Inline',
-                                                'page' => 'crud/forms/editors/ckeditor-inline'
+                                                'page' => 'crud/forms/editors/ckeditor-inline',
                                             ],
                                             [
                                                 'title' => 'CKEditor Balloon',
-                                                'page' => 'crud/forms/editors/ckeditor-balloon'
+                                                'page' => 'crud/forms/editors/ckeditor-balloon',
                                             ],
                                             [
                                                 'title' => 'CKEditor Balloon Block',
-                                                'page' => 'crud/forms/editors/ckeditor-balloon-block'
+                                                'page' => 'crud/forms/editors/ckeditor-balloon-block',
                                             ],
                                             [
                                                 'title' => 'CKEditor Document',
-                                                'page' => 'crud/forms/editors/ckeditor-document'
+                                                'page' => 'crud/forms/editors/ckeditor-document',
                                             ],
-                                        ]
+                                        ],
                                     ],
                                     [
                                         'title' => 'Quill Text Editor',
-                                        'page' => 'crud/forms/editors/quill'
+                                        'page' => 'crud/forms/editors/quill',
                                     ],
                                     [
                                         'title' => 'Summernote WYSIWYG',
-                                        'page' => 'crud/forms/editors/summernote'
+                                        'page' => 'crud/forms/editors/summernote',
                                     ],
                                     [
                                         'title' => 'Markdown Editor',
-                                        'page' => 'crud/forms/editors/bootstrap-markdown'
+                                        'page' => 'crud/forms/editors/bootstrap-markdown',
                                     ],
-                                ]
+                                ],
                             ],
                             [
                                 'title' => 'Form Layouts',
@@ -569,21 +568,21 @@ return [
                                 'submenu' => [
                                     [
                                         'title' => 'Default Forms',
-                                        'page' => 'crud/forms/layouts/default-forms'
+                                        'page' => 'crud/forms/layouts/default-forms',
                                     ],
                                     [
                                         'title' => 'Multi Column Forms',
-                                        'page' => 'crud/forms/layouts/multi-column-forms'
+                                        'page' => 'crud/forms/layouts/multi-column-forms',
                                     ],
                                     [
                                         'title' => 'Basic Action Bars',
-                                        'page' => 'crud/forms/layouts/action-bars'
+                                        'page' => 'crud/forms/layouts/action-bars',
                                     ],
                                     [
                                         'title' => 'Sticky Action Bar',
-                                        'page' => 'crud/forms/layouts/sticky-action-bar'
-                                    ]
-                                ]
+                                        'page' => 'crud/forms/layouts/sticky-action-bar',
+                                    ],
+                                ],
                             ],
                             [
                                 'title' => 'Form Validation',
@@ -593,19 +592,19 @@ return [
                                 'submenu' => [
                                     [
                                         'title' => 'Validation States',
-                                        'page' => 'crud/forms/validation/states'
+                                        'page' => 'crud/forms/validation/states',
                                     ],
                                     [
                                         'title' => 'Form Controls',
-                                        'page' => 'crud/forms/validation/form-controls'
+                                        'page' => 'crud/forms/validation/form-controls',
                                     ],
                                     [
                                         'title' => 'Form Widgets',
-                                        'page' => 'crud/forms/validation/form-widgets'
-                                    ]
-                                ]
-                            ]
-                        ]
+                                        'page' => 'crud/forms/validation/form-widgets',
+                                    ],
+                                ],
+                            ],
+                        ],
                     ],
 
                     [
@@ -648,8 +647,8 @@ return [
                                         'title' => 'Translation',
                                         'page' => 'crud/ktdatatable/base/translation',
                                         'icon' => '',
-                                    ]
-                                ]
+                                    ],
+                                ],
                             ],
                             [
                                 'title' => 'Advanced',
@@ -684,9 +683,9 @@ return [
                                     [
                                         'title' => 'Vertical Scrolling',
                                         'page' => 'crud/ktdatatable/advanced/vertical',
-                                        'icon' => ''
-                                    ]
-                                ]
+                                        'icon' => '',
+                                    ],
+                                ],
                             ],
                             /*[
                                 'title' => 'Scrolling',
@@ -745,14 +744,14 @@ return [
                                     [
                                         'title' => 'Local Data',
                                         'page' => 'crud/ktdatatable/child/data-local',
-                                        'icon' => ''
+                                        'icon' => '',
                                     ],
                                     [
                                         'title' => 'Remote Data',
                                         'page' => 'crud/ktdatatable/child/data-ajax',
-                                        'icon' => ''
-                                    ]
-                                ]
+                                        'icon' => '',
+                                    ],
+                                ],
                             ],
                             [
                                 'title' => 'API',
@@ -762,16 +761,16 @@ return [
                                     [
                                         'title' => 'API Methods',
                                         'page' => 'crud/ktdatatable/api/methods',
-                                        'icon' => ''
+                                        'icon' => '',
                                     ],
                                     [
                                         'title' => 'Events',
                                         'page' => 'crud/ktdatatable/api/events',
-                                        'icon' => ''
-                                    ]
-                                ]
-                            ]
-                        ]
+                                        'icon' => '',
+                                    ],
+                                ],
+                            ],
+                        ],
                     ],
 
                     [
@@ -800,8 +799,8 @@ return [
                                     [
                                         'title' => 'Pagination Options',
                                         'page' => 'crud/datatables/basic/paginations',
-                                    ]
-                                ]
+                                    ],
+                                ],
                             ],
                             [
                                 'title' => 'Advanced',
@@ -832,7 +831,7 @@ return [
                                         'title' => 'Footer Callback',
                                         'page' => 'crud/datatables/advanced/footer-callback',
                                     ],
-                                ]
+                                ],
                             ],
                             [
                                 'title' => 'Data sources',
@@ -854,8 +853,8 @@ return [
                                     [
                                         'title' => 'Ajax Server-side',
                                         'page' => 'crud/datatables/data-sources/ajax-server-side',
-                                    ]
-                                ]
+                                    ],
+                                ],
                             ],
                             [
                                 'title' => 'Search Options',
@@ -870,7 +869,7 @@ return [
                                         'title' => 'Advanced Search',
                                         'page' => 'crud/datatables/search-options/advanced-search',
                                     ],
-                                ]
+                                ],
                             ],
                             [
                                 'title' => 'Extensions',
@@ -915,11 +914,11 @@ return [
                                     ],
                                     [
                                         'title' => 'Select',
-                                        'page' => 'crud/datatables/extensions/select'
-                                    ]
-                                ]
+                                        'page' => 'crud/datatables/extensions/select',
+                                    ],
+                                ],
                             ],
-                        ]
+                        ],
                     ],
 
                     [
@@ -934,16 +933,16 @@ return [
                             ],
                             [
                                 'title' => 'DropzoneJS',
-                                'page' => 'crud/file-upload/dropzonejs'
+                                'page' => 'crud/file-upload/dropzonejs',
                             ],
                             [
                                 'title' => 'Uppy',
-                                'page' => 'crud/file-upload/uppy'
-                            ]
-                        ]
-                    ]
-                ]
-            ]
+                                'page' => 'crud/file-upload/uppy',
+                            ],
+                        ],
+                    ],
+                ],
+            ],
         ],
         [
             'title' => 'Apps',
@@ -960,29 +959,29 @@ return [
                         'submenu' => [
                             [
                                 'title' => 'List - Default',
-                                'page' => 'custom/apps/user/list-default'
+                                'page' => 'custom/apps/user/list-default',
                             ],
                             [
                                 'title' => 'List - Datatable',
-                                'page' => 'custom/apps/user/list-datatable'
+                                'page' => 'custom/apps/user/list-datatable',
                             ],
                             [
                                 'title' => 'List - Columns 1',
-                                'page' => 'custom/apps/user/list-columns-1'
+                                'page' => 'custom/apps/user/list-columns-1',
                             ],
                             [
                                 'title' => 'List - Columns 2',
-                                'page' => 'custom/apps/user/list-columns-2'
+                                'page' => 'custom/apps/user/list-columns-2',
                             ],
                             [
                                 'title' => 'Add User',
-                                'page' => 'custom/apps/user/add-user'
+                                'page' => 'custom/apps/user/add-user',
                             ],
                             [
                                 'title' => 'Edit User',
-                                'page' => 'custom/apps/user/edit-user'
-                            ]
-                        ]
+                                'page' => 'custom/apps/user/edit-user',
+                            ],
+                        ],
                     ],
                     [
                         'title' => 'Profile',
@@ -995,39 +994,39 @@ return [
                                 'submenu' => [
                                     [
                                         'title' => 'Overview',
-                                        'page' => 'custom/apps/profile/profile-1/overview'
+                                        'page' => 'custom/apps/profile/profile-1/overview',
                                     ],
                                     [
                                         'title' => 'Personal Information',
-                                        'page' => 'custom/apps/profile/profile-1/personal-information'
+                                        'page' => 'custom/apps/profile/profile-1/personal-information',
                                     ],
                                     [
                                         'title' => 'Account Information',
-                                        'page' => 'custom/apps/profile/profile-1/account-information'
+                                        'page' => 'custom/apps/profile/profile-1/account-information',
                                     ],
                                     [
                                         'title' => 'Change Password',
-                                        'page' => 'custom/apps/profile/profile-1/change-password'
+                                        'page' => 'custom/apps/profile/profile-1/change-password',
                                     ],
                                     [
                                         'title' => 'Email Settings',
-                                        'page' => 'custom/apps/profile/profile-1/email-settings'
-                                    ]
-                                ]
+                                        'page' => 'custom/apps/profile/profile-1/email-settings',
+                                    ],
+                                ],
                             ],
                             [
                                 'title' => 'Profile 2',
-                                'page' => 'custom/apps/profile/profile-2'
+                                'page' => 'custom/apps/profile/profile-2',
                             ],
                             [
                                 'title' => 'Profile 3',
-                                'page' => 'custom/apps/profile/profile-3'
+                                'page' => 'custom/apps/profile/profile-3',
                             ],
                             [
                                 'title' => 'Profile 4',
-                                'page' => 'custom/apps/profile/profile-4'
-                            ]
-                        ]
+                                'page' => 'custom/apps/profile/profile-4',
+                            ],
+                        ],
                     ],
                     [
                         'title' => 'Contacts',
@@ -1036,25 +1035,25 @@ return [
                         'submenu' => [
                             [
                                 'title' => 'List - Columns',
-                                'page' => 'custom/apps/contacts/list-columns'
+                                'page' => 'custom/apps/contacts/list-columns',
                             ],
                             [
                                 'title' => 'List - Datatable',
-                                'page' => 'custom/apps/contacts/list-datatable'
+                                'page' => 'custom/apps/contacts/list-datatable',
                             ],
                             [
                                 'title' => 'View Contact',
-                                'page' => 'custom/apps/contacts/view-contact'
+                                'page' => 'custom/apps/contacts/view-contact',
                             ],
                             [
                                 'title' => 'Add Contact',
-                                'page' => 'custom/apps/contacts/add-contact'
+                                'page' => 'custom/apps/contacts/add-contact',
                             ],
                             [
                                 'title' => 'Edit Contact',
-                                'page' => 'custom/apps/contacts/edit-cotact'
-                            ]
-                        ]
+                                'page' => 'custom/apps/contacts/edit-cotact',
+                            ],
+                        ],
                     ],
                     [
                         'title' => 'Chat',
@@ -1063,17 +1062,17 @@ return [
                         'submenu' => [
                             [
                                 'title' => 'Private',
-                                'page' => 'custom/apps/chat/private'
+                                'page' => 'custom/apps/chat/private',
                             ],
                             [
                                 'title' => 'Group',
-                                'page' => 'custom/apps/chat/group'
+                                'page' => 'custom/apps/chat/group',
                             ],
                             [
                                 'title' => 'Popup',
-                                'page' => 'custom/apps/chat/popup'
-                            ]
-                        ]
+                                'page' => 'custom/apps/chat/popup',
+                            ],
+                        ],
                     ],
                     [
                         'title' => 'Projects',
@@ -1082,37 +1081,37 @@ return [
                         'submenu' => [
                             [
                                 'title' => 'List - Columns 1',
-                                'page' => 'custom/apps/projects/list-columns-1'
+                                'page' => 'custom/apps/projects/list-columns-1',
                             ],
                             [
                                 'title' => 'List - Columns 2',
-                                'page' => 'custom/apps/projects/list-columns-2'
+                                'page' => 'custom/apps/projects/list-columns-2',
                             ],
                             [
                                 'title' => 'List - Columns 3',
-                                'page' => 'custom/apps/projects/list-columns-3'
+                                'page' => 'custom/apps/projects/list-columns-3',
                             ],
                             [
                                 'title' => 'List - Columns 4',
-                                'page' => 'custom/apps/projects/list-columns-4'
+                                'page' => 'custom/apps/projects/list-columns-4',
                             ],
                             [
                                 'title' => 'List - Datatable',
-                                'page' => 'custom/apps/projects/list-datatable'
+                                'page' => 'custom/apps/projects/list-datatable',
                             ],
                             [
                                 'title' => 'View Project',
-                                'page' => 'custom/apps/projects/view-project'
+                                'page' => 'custom/apps/projects/view-project',
                             ],
                             [
                                 'title' => 'Add Project',
-                                'page' => 'custom/apps/projects/add-project'
+                                'page' => 'custom/apps/projects/add-project',
                             ],
                             [
                                 'title' => 'Edit Project',
-                                'page' => 'custom/apps/projects/edit-project'
-                            ]
-                        ]
+                                'page' => 'custom/apps/projects/edit-project',
+                            ],
+                        ],
                     ],
                     [
                         'title' => 'Support Center',
@@ -1121,33 +1120,33 @@ return [
                         'submenu' => [
                             [
                                 'title' => 'Home 1',
-                                'page' => 'custom/apps/support-center/home-1'
+                                'page' => 'custom/apps/support-center/home-1',
                             ],
                             [
                                 'title' => 'Home 2',
-                                'page' => 'custom/apps/support-center/home-2'
+                                'page' => 'custom/apps/support-center/home-2',
                             ],
                             [
                                 'title' => 'FAQ 1',
-                                'page' => 'custom/apps/support-center/faq-1'
+                                'page' => 'custom/apps/support-center/faq-1',
                             ],
                             [
                                 'title' => 'FAQ 2',
-                                'page' => 'custom/apps/support-center/faq-2'
+                                'page' => 'custom/apps/support-center/faq-2',
                             ],
                             [
                                 'title' => 'FAQ 3',
-                                'page' => 'custom/apps/support-center/faq-3'
+                                'page' => 'custom/apps/support-center/faq-3',
                             ],
                             [
                                 'title' => 'Feedback',
-                                'page' => 'custom/apps/support-center/feedback'
+                                'page' => 'custom/apps/support-center/feedback',
                             ],
                             [
                                 'title' => 'License',
-                                'page' => 'custom/apps/support-center/license'
-                            ]
-                        ]
+                                'page' => 'custom/apps/support-center/license',
+                            ],
+                        ],
                     ],
 
                     [
@@ -1157,17 +1156,17 @@ return [
                         'submenu' => [
                             [
                                 'title' => 'Tasks',
-                                'page' => 'custom/apps/todo/tasks'
+                                'page' => 'custom/apps/todo/tasks',
                             ],
                             [
                                 'title' => 'Docs',
-                                'page' => 'custom/apps/todo/docs'
+                                'page' => 'custom/apps/todo/docs',
                             ],
                             [
                                 'title' => 'Files',
-                                'page' => 'custom/apps/todo/files'
-                            ]
-                        ]
+                                'page' => 'custom/apps/todo/files',
+                            ],
+                        ],
                     ],
 
                     [
@@ -1175,14 +1174,14 @@ return [
                         'bullet' => 'dot',
                         'label' => [
                             'type' => 'label-danger label-inline',
-                            'value' => 'new'
+                            'value' => 'new',
                         ],
                         'icon' => 'media/svg/icons/General/Shield-check.svg',
                         'title' => 'Inbox',
-                        'page' => 'custom/apps/inbox'
-                    ]
-                ]
-            ]
+                        'page' => 'custom/apps/inbox',
+                    ],
+                ],
+            ],
         ],
         [
             'title' => 'Pages',
@@ -1203,21 +1202,21 @@ return [
                         'items' => [
                             [
                                 'title' => 'Pricing Tables 1',
-                                'page' => 'custom/pages/pricing/pricing-1'
+                                'page' => 'custom/pages/pricing/pricing-1',
                             ],
                             [
                                 'title' => 'Pricing Tables 2',
-                                'page' => 'custom/pages/pricing/pricing-2'
+                                'page' => 'custom/pages/pricing/pricing-2',
                             ],
                             [
                                 'title' => 'Pricing Tables 3',
-                                'page' => 'custom/pages/pricing/pricing-3'
+                                'page' => 'custom/pages/pricing/pricing-3',
                             ],
                             [
                                 'title' => 'Pricing Tables 4',
-                                'page' => 'custom/pages/pricing/pricing-4'
-                            ]
-                        ]
+                                'page' => 'custom/pages/pricing/pricing-4',
+                            ],
+                        ],
                     ],
                     [
                         'bullet' => 'line',
@@ -1229,21 +1228,21 @@ return [
                         'items' => [
                             [
                                 'title' => 'Wizard 1',
-                                'page' => 'custom/pages/wizard/wizard-1'
+                                'page' => 'custom/pages/wizard/wizard-1',
                             ],
                             [
                                 'title' => 'Wizard 2',
-                                'page' => 'custom/pages/wizard/wizard-2'
+                                'page' => 'custom/pages/wizard/wizard-2',
                             ],
                             [
                                 'title' => 'Wizard 3',
-                                'page' => 'custom/pages/wizard/wizard-3'
+                                'page' => 'custom/pages/wizard/wizard-3',
                             ],
                             [
                                 'title' => 'Wizard 4',
-                                'page' => 'custom/pages/wizard/wizard-4'
-                            ]
-                        ]
+                                'page' => 'custom/pages/wizard/wizard-4',
+                            ],
+                        ],
                     ],
                     [
                         'bullet' => 'line',
@@ -1256,17 +1255,17 @@ return [
                         'items' => [
                             [
                                 'title' => 'Invoice 1',
-                                'page' => 'custom/pages/invoices/invoice-1'
+                                'page' => 'custom/pages/invoices/invoice-1',
                             ],
                             [
                                 'title' => 'Invoice 2',
-                                'page' => 'custom/pages/invoices/invoice-2'
+                                'page' => 'custom/pages/invoices/invoice-2',
                             ],
                             [
                                 'title' => 'FAQ 1',
-                                'page' => 'custom/pages/faq/faq-1'
-                            ]
-                        ]
+                                'page' => 'custom/pages/faq/faq-1',
+                            ],
+                        ],
                     ],
                     [
                         'bullet' => 'line',
@@ -1279,34 +1278,34 @@ return [
                             [
                                 'title' => 'Login 1',
                                 'page' => 'custom/pages/user/login-1',
-                                'new-tab' => true
+                                'new-tab' => true,
                             ],
                             [
                                 'title' => 'Login 2',
                                 'page' => 'custom/pages/user/login-2',
-                                'new-tab' => true
+                                'new-tab' => true,
                             ],
                             [
                                 'title' => 'Login 3',
                                 'page' => 'custom/pages/user/login-3',
-                                'new-tab' => true
+                                'new-tab' => true,
                             ],
                             [
                                 'title' => 'Login 4',
                                 'page' => 'custom/pages/user/login-4',
-                                'new-tab' => true
+                                'new-tab' => true,
                             ],
                             [
                                 'title' => 'Login 5',
                                 'page' => 'custom/pages/user/login-5',
-                                'new-tab' => true
+                                'new-tab' => true,
                             ],
                             [
                                 'title' => 'Login 6',
                                 'page' => 'custom/pages/user/login-6',
-                                'new-tab' => true
-                            ]
-                        ]
+                                'new-tab' => true,
+                            ],
+                        ],
                     ],
                     [
                         'bullet' => 'line',
@@ -1319,38 +1318,37 @@ return [
                             [
                                 'title' => 'Error 1',
                                 'page' => 'custom/pages/errors/error-1',
-                                'new-tab' => true
+                                'new-tab' => true,
                             ],
                             [
                                 'title' => 'Error 2',
                                 'page' => 'custom/pages/errors/error-2',
-                                'new-tab' => true
+                                'new-tab' => true,
                             ],
                             [
                                 'title' => 'Error 3',
                                 'page' => 'custom/pages/errors/error-3',
-                                'new-tab' => true
+                                'new-tab' => true,
                             ],
                             [
                                 'title' => 'Error 4',
                                 'page' => 'custom/pages/errors/error-4',
-                                'new-tab' => true
+                                'new-tab' => true,
                             ],
                             [
                                 'title' => 'Error 5',
                                 'page' => 'custom/pages/errors/error-5',
-                                'new-tab' => true
+                                'new-tab' => true,
                             ],
                             [
                                 'title' => 'Error 6',
                                 'page' => 'custom/pages/errors/error-6',
-                                'new-tab' => true
-                            ]
-                        ]
-                    ]
-                ]
-            ]
-        ]
-    ]
-
+                                'new-tab' => true,
+                            ],
+                        ],
+                    ],
+                ],
+            ],
+        ],
+    ],
 ];
