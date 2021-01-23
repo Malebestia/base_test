@@ -70,3 +70,6 @@
 [submodule "bashscripts"]
 	path = bashscripts
 	url = https://github.com/laraxot/bashscripts.git
+[submodule "laravel/Modules/Forum"]
+	path = laravel/Modules/Forum
+	url = https://github.com/laraxot/module_forum.git
