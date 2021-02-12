@@ -73,3 +73,6 @@
 [submodule "laravel/Modules/Forum"]
 	path = laravel/Modules/Forum
 	url = https://github.com/laraxot/module_forum.git
+[submodule "laravel/resources/views/themes/gbfood"]
+	path = laravel/resources/views/themes/gbfood
+	url = https://github.com/laraxot/theme_gbfood.git

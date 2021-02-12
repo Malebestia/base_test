@@ -18,6 +18,6 @@
   ),
   'primary_lang' => 'it',
   //'pub_theme' => 'directorybs4',
-  'pub_theme' => 'coderdocs',
+  'pub_theme' => 'gbfood',
   'show_trans_key' => true,
 );
