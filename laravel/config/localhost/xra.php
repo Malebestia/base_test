@@ -12,6 +12,7 @@
     'ingredient_cat' => 'Modules\Food\Models\IngredientCat',
     'location' => 'Modules\Food\Models\Location',
     'page' => 'Modules\Blog\Models\Page',
+    'post' => 'Modules\Blog\Models\Post',
     'profile' => 'Modules\Food\Models\Profile',
     'recipe' => 'Modules\Food\Models\Recipe',
     'restaurant' => 'Modules\Food\Models\Restaurant',

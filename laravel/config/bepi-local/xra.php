@@ -19,7 +19,7 @@
     'widget' => 'Modules\Xot\Models\Widget',
   ),
   'primary_lang' => 'it',
-  'pub_theme' => 'gbfood',
-  //'pub_theme' => 'coderdocs',
+  //'pub_theme' => 'gbfood',
+  'pub_theme' => 'coderdocs',
   'show_trans_key' => true,
 );
